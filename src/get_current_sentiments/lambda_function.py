@@ -29,4 +29,5 @@ def lambda_handler(event, context):
     return {
         'statusCode': 200,
         'body': id36,
+        "newFunc": True,
     }
